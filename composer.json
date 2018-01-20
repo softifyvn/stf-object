@@ -1,0 +1,31 @@
+{
+    "name": "softifyvn/stf-object",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "softify",
+        "stf",
+        "object"
+    ],
+    "homepage": "https://github.com/softifyvn/stf-object",
+    "autoload": {
+        "psr-4": {
+            "Stf\\Object\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "zendframework/zendframework": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "^2.6.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+       "branch-alias": {
+            "dev-master": "0.0.1-dev",
+            "dev-develop": "0.0.2-dev"
+        }
+    }
+}
